@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Recurring events in Ruby"
   spec.description   = "A library for specifying, quering, and enumerating recurring events for calendars in Ruby."
-  spec.homepage      = "https://github.com/rossta/montrose"
+  spec.homepage      = "https://github.com/mycolorway/montrose"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.1.0"
 
-  spec.add_dependency "activesupport", ">= 4.1", "< 5.1"
+  spec.add_dependency "activesupport", ">= 4.1", "< 5.2"
 
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "appraisal", "~> 2.1.0"
